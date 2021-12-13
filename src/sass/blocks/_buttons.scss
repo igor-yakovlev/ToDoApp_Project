@@ -1,0 +1,23 @@
+.button {
+    width: 100px;
+    height: 60px;
+    background: #8D4ECC;
+    border-radius: 10px;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: #000000;        
+    &__done {
+        background: #3B5149;
+        color: #FFFFFF;
+    }
+    &__del {
+        margin-left: 15px;
+        background: #F41B1B;
+        color: #FFFFFF;
+    }
+}
