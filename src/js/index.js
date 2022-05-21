@@ -2,6 +2,7 @@ const doAddInput = document.querySelector('.todo__add-input');
 const buttonInput = document.querySelector('#buttonAdd');
 const outBlock = document.querySelector('.block');
 
+
 function Task (input) {
     this.input = input;
     this.completed = false;
@@ -23,10 +24,10 @@ const createTemplate = (task, index) => {
     return `
     <div class="todo__out-wrapper">
         <div class="todo__out-description">${task.input}</div>
-        <button class="button button__done">Done</button>
         <button onclick='deleteTask(${index})' class="button button__del">Del</button>
     </div>
     `
+    
 }
 
 
